@@ -1,0 +1,70 @@
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  
+  header {
+    text-align: center;
+    margin: 15px 0;
+  }
+  
+  main {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  main input {
+    width: 300px;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+  
+  main button {
+    background-color: blue;
+    color: white;
+    border: 1px solid transparent;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s linear;
+  }
+  
+  main button:hover {
+    border: 1px solid blue;
+    background-color: transparent;
+    color: blue;
+  }
+  
+  #movie {
+    display: flex;
+    justify-content: space-between;
+    row-gap: 30px;
+    flex-wrap: wrap;
+    width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    width: 300px;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
